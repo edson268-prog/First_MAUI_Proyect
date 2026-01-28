@@ -5,11 +5,12 @@
         public App()
         {
             InitializeComponent();
-        }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
+            var navPage = new NavigationPage(new MainPage());
+            navPage.BarBackgroundColor = Colors.Chocolate;
+            navPage.BarTextColor = Colors.White;
+
+            MainPage = new TabbedPageDemo();
         }
     }
 }
