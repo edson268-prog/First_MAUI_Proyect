@@ -12,7 +12,7 @@ namespace First_MAUI_Proyect
             navPage.BarBackgroundColor = Colors.Chocolate;
             navPage.BarTextColor = Colors.White;
 
-            MainPage = new GridDemoPage();
+            MainPage = new FlexLayoutPage();
         }
     }
 }
