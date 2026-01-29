@@ -1,4 +1,6 @@
-﻿namespace First_MAUI_Proyect
+﻿using First_MAUI_Proyect.Grid;
+
+namespace First_MAUI_Proyect
 {
     public partial class App : Application
     {
@@ -10,7 +12,7 @@
             navPage.BarBackgroundColor = Colors.Chocolate;
             navPage.BarTextColor = Colors.White;
 
-            MainPage = new TabbedPageDemo();
+            MainPage = new GridDemoPage();
         }
     }
 }
